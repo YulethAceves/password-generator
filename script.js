@@ -27,7 +27,9 @@ function generatePassword() {
   }
 //  console.log(acceptedCharacterList)
   var password = ""
-
+ if(acceptedCharacterList.length === 0){
+  return "Please choose at least 1 option"
+ }
   for (let i = 0; i < lenghtpass; i++) { // i = i+1
     var index = Math.floor(Math.random() * acceptedCharacterList.length)
     password += acceptedCharacterList[index]
