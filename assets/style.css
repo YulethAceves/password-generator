@@ -14,7 +14,8 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-image: url("../assets/images/Gradient-Background.png.webp");
+  background-size: cover;
 }
 
 .wrapper {
@@ -40,6 +41,7 @@ header {
   margin: 0 auto;
   max-width: 800px;
   padding: 30px 40px;
+  text-align: center;
 }
 
 .card-header::after {
@@ -74,13 +76,15 @@ header {
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
-  color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 0%);
   display: inline-block;
   font-size: 22px;
+  font-weight: bold;
   line-height: 22px;
   margin: 16px 16px 16px 20px;
   padding: 14px 34px;
